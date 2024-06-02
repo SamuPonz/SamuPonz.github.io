@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuele Ponzin Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
@@ -35,21 +36,32 @@
 
     <section id="experience" class="container">
         <h2>Work Experience</h2>
-        <h3>Research Intern</h3>
-        <p>University of Glasgow, September 2023 - March 2024</p>
-        <p>Master thesis project on Geometric Deep Learning and Cortical Surface Reconstruction.</p>
-        <h3>Student Branch Secretary</h3>
-        <p>IEEE Brescia, September 2019 - September 2020</p>
-        <p>Maintained all records and served as the record keeper and historian of the Student Branch.</p>
-        <h3>Student Branch Vice-Chair</h3>
-        <p>IEEE Brescia, September 2018 - September 2019</p>
-        <p>Assisted the Branch Chair with the workload, oversaw subcommittees, and managed activities throughout the semester.</p>
+        <div class="experience-item">
+            <h3>Research Intern</h3>
+            <h4>University of Glasgow</h4>
+            <span>September 2023 - March 2024</span>
+            <p>Master thesis project on Geometric Deep Learning and Cortical Surface Reconstruction.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Student Branch Secretary</h3>
+            <h4>IEEE Brescia</h4>
+            <span>September 2019 - September 2020</span>
+            <p>Maintained all records and served as the record keeper and historian of the Student Branch.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Student Branch Vice-Chair</h3>
+            <h4>IEEE Brescia</h4>
+            <span>September 2018 - September 2019</span>
+            <p>Assisted the Branch Chair with the workload, oversaw subcommittees, and managed activities throughout the semester.</p>
+        </div>
     </section>
 
     <section id="projects" class="container">
         <h2>Projects</h2>
-        <h3>DeepThickness Project</h3>
-        <p>Geometric Deep Learning, TensorFlow, Pytorch, Linux, Graph Neural Networks, Convolutional Neural Networks.</p>
+        <div class="project-item">
+            <h3>DeepThickness Project</h3>
+            <p>Geometric Deep Learning, TensorFlow, Pytorch, Linux, Graph Neural Networks, Convolutional Neural Networks.</p>
+        </div>
     </section>
 
     <section id="skills" class="container">
@@ -63,10 +75,16 @@
 
     <section id="education" class="container">
         <h2>Education</h2>
-        <h3>Master's Degree in Communication Technologies and Multimedia</h3>
-        <p>Università degli Studi di Brescia, 2020 - 2024</p>
-        <h3>Bachelor's Degree in Electronics and Telecommunications Engineering</h3>
-        <p>Università degli Studi di Brescia, 2017 - 2021</p>
+        <div class="education-item">
+            <h3>Master's Degree in Communication Technologies and Multimedia</h3>
+            <h4>Università degli Studi di Brescia</h4>
+            <span>2020 - 2024</span>
+        </div>
+        <div class="education-item">
+            <h3>Bachelor's Degree in Electronics and Telecommunications Engineering</h3>
+            <h4>Università degli Studi di Brescia</h4>
+            <span>2017 - 2021</span>
+        </div>
     </section>
 
     <section id="certifications" class="container">
@@ -88,5 +106,7 @@
             <p>&copy; 2024 Samuele Ponzin</p>
         </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
